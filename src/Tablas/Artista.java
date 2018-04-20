@@ -8,6 +8,7 @@ public class Artista {
 	
 	private String pais;
 	
+	private Artista siguiente;
 	
 	public Artista(String pNombreArtista, boolean pTipoDeArtista, String pPais)
 	{
@@ -33,6 +34,11 @@ public class Artista {
 		return pais;
 	}
 	
+	public Artista darSiguiente()
+	{
+		return siguiente;
+	}
+	
 	public void cambiarNombreArtista( String pNombreArtista )
 	{
 		nombreArtista = pNombreArtista;
@@ -48,5 +54,9 @@ public class Artista {
 		pais = pPais;
 	}
 	
+	public void cambiarSiguiente( Artista pSiguiente )
+	{
+		siguiente = pSiguiente;
+	}
 	
 }
