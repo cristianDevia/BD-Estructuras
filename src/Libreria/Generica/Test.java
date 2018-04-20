@@ -10,10 +10,12 @@ public class Test {
 		
 		FactoryArtista f= new FactoryArtista();
 		
-		f.newObject("adsasd", true, "adads");
+		f.newObject("Juanes", true, "Colombia");
+		
+		Artista artista = new Artista("Juanes", true, "Colombia");
 		
 		System.out.println(f);
-		
+		System.out.println(artista.darNombreArtista()+ "\n" + artista.darPais());
 		
 	}
 
