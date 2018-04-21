@@ -14,25 +14,6 @@ public class Libreria <T>
 	{
 		return f.newObject(Juanes, algo, Colombia);
 	}
-
-	@Override
-	public String toString() {
-		return "Libreria [Juanes=" + Juanes + ", algo=" + algo + ", Colombia=" + Colombia + "]";
-	}
 	
 
-//	public T nuevoElemento(IFactory<T> f)
-//	{
-//		String Juanes = null;
-//		boolean algo = true;
-//		String Colombia = null;
-//		
-//		T noTengoNiPutaIdeaDeQueEsEsto = f.newObject(Juanes, algo, Colombia);
-//		
-//		return noTengoNiPutaIdeaDeQueEsEsto;
-//		
-//	}
-	
-
-	
 }

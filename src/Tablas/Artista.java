@@ -58,5 +58,12 @@ public class Artista {
 	{
 		siguiente = pSiguiente;
 	}
+
+	@Override
+	public String toString() {
+		return "Artista [nombreArtista=" + nombreArtista + ", tipoDeArtista=" + tipoDeArtista + ", pais=" + pais
+				+ ", siguiente=" + siguiente + "]";
+	}
+	
 	
 }
