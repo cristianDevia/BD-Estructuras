@@ -11,13 +11,6 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-//		FactoryArtista f= new FactoryArtista();
-//		
-//		f.newObject("Juanes", true, "Colombia");
-//		
-//		System.out.println(f);
-
-		
 	try {
 		
 		FactoryArtista f = new FactoryArtista();
@@ -33,11 +26,7 @@ public class Test {
      } 	catch(IllegalAccessException e) {
         System.out.println(e.toString());
      }
-		
-//		Artista artista = new Artista("Juanes", true, "Colombia");
-//
-//		System.out.println(artista.darNombreArtista()+ "\n" + artista.darPais());
-		
+	
 	}
 
 }
